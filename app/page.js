@@ -94,7 +94,7 @@ export default function Home() {
         <h1 className="heading-1">Response</h1>
         {showError ? (
           <p className="err-msg plain-text">
-            Loan amount has to be between 2000 and 1000, Loan period has to be
+            Loan amount has to be between 2000 and 10000, Loan period has to be
             between 12 and 60
           </p>
         ) : (

@@ -53,7 +53,7 @@ export async function POST(request) {
           JSON.stringify(
             "Loan amount approved: " +
               loan_amount +
-              ", Loan period approved: " +
+              " Loan period approved: " +
               opt_loan_period
           )
         );
